@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLPoc.Api", "GraphQLPoc.Api\GraphQLPoc.Api.csproj", "{330DCFB1-3B6A-4503-8378-DCDADBA107F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{C6D7CD98-8A65-4B07-9AD4-AA0798832F2A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{C6814738-1AE7-47E5-B30F-8CCCD5EA43C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{731A23BF-6C1B-41FA-A275-AB8B5F34E3A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{330DCFB1-3B6A-4503-8378-DCDADBA107F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330DCFB1-3B6A-4503-8378-DCDADBA107F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330DCFB1-3B6A-4503-8378-DCDADBA107F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330DCFB1-3B6A-4503-8378-DCDADBA107F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{330DCFB1-3B6A-4503-8378-DCDADBA107F3} = {731A23BF-6C1B-41FA-A275-AB8B5F34E3A7}
+		{731A23BF-6C1B-41FA-A275-AB8B5F34E3A7} = {C6814738-1AE7-47E5-B30F-8CCCD5EA43C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {652E73CD-B89E-4815-8148-1DAC25527DE0}
+	EndGlobalSection
+EndGlobal
