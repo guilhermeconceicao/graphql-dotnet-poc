@@ -19,7 +19,7 @@ namespace GraphQLPoc.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddInfrastructure();
+            services.AddInfrastructure(Configuration.GetConnectionString("PocGraphqlDBConnection"));
             services.AddPocGraphql();
         }
 

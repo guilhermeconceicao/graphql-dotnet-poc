@@ -14,12 +14,9 @@ namespace GraphQLPoc.Api.Application.Extensions
 {
     public static class ServiceCollectionExtensions
     {
-        private const string SqlConnectionString =
-            @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=PocGraphqlDB;Integrated Security = True";
-
-        public static IServiceCollection AddInfrastructure(this IServiceCollection services)
+        public static IServiceCollection AddInfrastructure(this IServiceCollection services, string sqlConnectionString)
         {
-            services.AddDbContext<PocDbContext>(options => options.UseSqlServer(SqlConnectionString));
+            services.AddDbContext<PocDbContext>(options => options.UseSqlServer(sqlConnectionString));
 
             services.AddTransient<IClubRepository, ClubRepository>();
             services.AddTransient<ICompetitionRepository, CompetitionRepository>();
