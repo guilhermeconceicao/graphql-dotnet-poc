@@ -2,7 +2,7 @@
 using GraphQLPoc.Api.Application.Entities;
 using GraphQLPoc.Api.Application.Types.Enums;
 
-namespace GraphQLPoc.Api.Application.Types
+namespace GraphQLPoc.Api.Application.Queries.Types
 {
     public class PlayerType : ObjectGraphType<Player>
     {

@@ -2,7 +2,7 @@
 using GraphQLPoc.Api.Application.Common.Interfaces;
 using GraphQLPoc.Api.Application.Entities;
 
-namespace GraphQLPoc.Api.Application.Types
+namespace GraphQLPoc.Api.Application.Queries.Types
 {
     public class ClubType : ObjectGraphType<Club>
     {

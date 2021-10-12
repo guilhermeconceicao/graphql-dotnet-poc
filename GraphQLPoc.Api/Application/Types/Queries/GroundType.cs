@@ -1,7 +1,7 @@
 ﻿using GraphQL.Types;
 using GraphQLPoc.Api.Application.Entities;
 
-namespace GraphQLPoc.Api.Application.Types
+namespace GraphQLPoc.Api.Application.Queries.Types
 {
     public class GroundType : ObjectGraphType<Ground>
     {

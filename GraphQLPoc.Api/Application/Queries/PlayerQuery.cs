@@ -3,7 +3,7 @@ using GraphQL.Types;
 using GraphQLPoc.Api.Application.Common.Interfaces;
 using GraphQLPoc.Api.Application.Entities;
 using GraphQLPoc.Api.Application.Entities.Enums;
-using GraphQLPoc.Api.Application.Types;
+using GraphQLPoc.Api.Application.Queries.Types;
 using GraphQLPoc.Api.Application.Types.Enums;
 using Humanizer;
 

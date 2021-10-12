@@ -1,4 +1,6 @@
-﻿using GraphQL.Types;
+﻿using GraphQL;
+using GraphQL.Types;
+using GraphQLPoc.Api.Application.Entities;
 
 namespace GraphQLPoc.Api.Application.Queries
 {
@@ -6,10 +8,10 @@ namespace GraphQLPoc.Api.Application.Queries
     {
         public PocQuery()
         {
-            Field<ClubQuery>("clubQuery", resolve: context => new { });
-            Field<CompetitionQuery>("competitionQuery", resolve: context => new { });
-            Field<GroundQuery>("groundQuery", resolve: context => new { });
-            Field<PlayerQuery>("playerQuery", resolve: context => new { });
+            Field<ClubQuery>($"{typeof(Club).Name.ToCamelCase()}Query", resolve: context => new { });
+            Field<CompetitionQuery>($"{typeof(Competition).Name.ToCamelCase()}Query", resolve: context => new { });
+            Field<GroundQuery>($"{typeof(Ground).Name.ToCamelCase()}Query", resolve: context => new { });
+            Field<PlayerQuery>($"{typeof(Player).Name.ToCamelCase()}Query", resolve: context => new { });
         }
     }
 }

@@ -2,7 +2,7 @@
 using GraphQL.Types;
 using GraphQLPoc.Api.Application.Common.Interfaces;
 using GraphQLPoc.Api.Application.Entities;
-using GraphQLPoc.Api.Application.Types;
+using GraphQLPoc.Api.Application.Queries.Types;
 using Humanizer;
 
 namespace GraphQLPoc.Api.Application.Queries

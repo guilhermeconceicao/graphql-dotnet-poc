@@ -3,7 +3,7 @@ using GraphQLPoc.Api.Application.Common.Interfaces;
 using GraphQLPoc.Api.Application.Entities;
 using GraphQLPoc.Api.Application.Types.Enums;
 
-namespace GraphQLPoc.Api.Application.Types
+namespace GraphQLPoc.Api.Application.Queries.Types
 {
     public class CompetitionType : ObjectGraphType<Competition>
     {
